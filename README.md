@@ -13,15 +13,16 @@
 
 # Механика
 После вывода наименования сервера пользователю предлагается ввести имя, фамилию, и сообщение. (Прим. Введите имя: ). После чего формируется xml:
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-<user>
-<name>Илья</name>
-<secondname>Сойфер</secondname>
-<message>это я</message>
-<date>01.01.2001 11:11:11</date>
-</user>
-</root>
+
+> <?xml version="1.0" encoding="UTF-8"?>
+> <root>
+> <user>
+> <name>Илья</name>
+> <secondname>Сойфер</secondname>
+> <message>это я</message>
+> <date>01.01.2001 11:11:11</date>
+> </user>
+> </root>
 
 Дата проставляется автоматически (берется текущая), в формате, представленном в xml, то есть "dd.mm.yyyy HH24:MI:SS"
 После нажатия клавиши Enter сформированная xml отправляется на сервер.
